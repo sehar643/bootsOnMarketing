@@ -34,8 +34,14 @@ const Queto = () => {
       </div>
     </div>
 
-
+{/* section two  */}
     <div className='pt-5'>
+    <div className="pt-8">
+        <h2 className="text-xl text-center mb-6 font-bold">WE'D LOVE</h2>
+        <h1 className="text-5xl mb-10 text-center font-bold leading-tight">
+          TO HEAR ABOUT <span className="text-[#00BFFF]">YOUR <br/> PROJECT</span>
+        </h1>
+      </div>
     <form onSubmit={handleSubmit(onSubmit)} className="max-w-5xl mx-auto p-4 border shadow-xl rounded-lg">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
@@ -209,6 +215,29 @@ const Queto = () => {
       </div>
     </div>
   </section>
+</div>
+
+{/* section four  */}
+
+<div>
+    <marquee>
+
+        <div className='flex'>
+        <img src="/src/assets/images/logo1.png" alt="logo" className="h-24" />
+        <img src="/src/assets/images/logo2.png" alt="logo" className="h-20 ml-28" />
+        <img src="/src/assets/images/logo3.png" alt="logo" className="h-24 ml-28" />
+        <img src="/src/assets/images/logo4.png" alt="logo" className="h-24 ml-28" />
+        <img src="/src/assets/images/logo5.png" alt="logo" className="h-24 ml-28" />
+        <img src="/src/assets/images/logo6.png" alt="logo" className="h-24 ml-28" />
+        <img src="/src/assets/images/logo7.png" alt="logo" className="h-24 ml-28" />
+        <img src="/src/assets/images/logo2.png" alt="logo" className="h-24 ml-28" />
+        <img src="/src/assets/images/logo3.png" alt="logo" className="h-24 ml-28" />
+        <img src="/src/assets/images/logo4.png" alt="logo" className="h-24 ml-28" />
+        <img src="/src/assets/images/logo5.png" alt="logo" className="h-24 ml-28" />
+        <img src="/src/assets/images/logo6.png" alt="logo" className="h-24 ml-28" />
+        <img src="/src/assets/images/logo7.png" alt="logo" className="h-24 ml-28" />
+        </div>
+    </marquee>
 </div>
 
     </>

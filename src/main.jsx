@@ -4,6 +4,7 @@ import './index.css'
 // import App from './App.jsx'
 import Navbar from './components/navbar/Navbar.jsx'
 import Queto from './pages/getAqueto/Queto.jsx'
+import Footer from './components/footer/Footer.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -11,6 +12,7 @@ createRoot(document.getElementById('root')).render(
     <>
     <Navbar />
     <Queto />
+    <Footer/>
     </>
     
   </StrictMode>,
