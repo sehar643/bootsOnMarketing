@@ -28,7 +28,7 @@ const Queto = () => {
       <div className="relative pt-16 z-10 text-white flex flex-col lg:items-start text-center lg:text-left">
         <p className="text-2xl font-semibold text-white lg:text-gray-300">WE'D LOVE</p>
         <h1 className="text-2xl sm:text-4xl lg:text-7xl font-bold">
-          <span className="text-cyan-500">TO HEeeeAR ABOUT</span> <br />
+          <span className="text-cyan-500">TO HEAR ABOUT</span> <br />
           <span className="text-white">YOUR PROJECT</span>
         </h1>
       </div>
